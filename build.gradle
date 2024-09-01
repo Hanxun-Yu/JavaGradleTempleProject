@@ -1,3 +1,5 @@
+
+
 buildscript {
     apply from: "config.gradle"
     repositories {
@@ -10,6 +12,7 @@ buildscript {
 }
 
 allprojects {
+
     repositories {
         maven {
             url rootProject.ext.ALIYUN_MAVEN_URL

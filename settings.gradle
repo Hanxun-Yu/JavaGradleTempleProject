@@ -1,4 +1,3 @@
-
 include ':app', ':libTestLib'
 include 'libTestLib2'
 
