@@ -1,0 +1,4 @@
+ext {
+    // 使用阿里云的Maven中央仓库镜像
+    ALIYUN_MAVEN_URL = 'https://maven.aliyun.com/repository/central'
+}
