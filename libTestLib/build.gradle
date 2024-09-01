@@ -12,10 +12,14 @@ tasks.register('createJavadoc', Javadoc) {
 
 
 dependencies {
-    testImplementation platform('org.junit:junit-bom:5.10.0')
-    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation platform(rootProject.ext.depend_pkg["junit-bom"])
+    testImplementation rootProject.ext.depend_pkg["junit-jupiter"]
+    implementation rootProject.ext.depend_pkg["gson"]
 
-    implementation('com.google.code.gson:gson:2.8.9')
+    implementation rootProject.ext.depend_pkg["lombok"]
+    annotationProcessor rootProject.ext.depend_pkg["lombok"]
+    testImplementation rootProject.ext.depend_pkg["lombok"]
+    testAnnotationProcessor rootProject.ext.depend_pkg["lombok"]
 }
 
 test {

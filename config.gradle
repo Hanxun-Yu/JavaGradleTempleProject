@@ -7,6 +7,7 @@ ext {
             "junit-bom"    : 'org.junit:junit-bom:5.10.0',
             "junit-jupiter": 'org.junit.jupiter:junit-jupiter',
             "gson"         : 'com.google.code.gson:gson:2.8.9',
+            "lombok"       : 'org.projectlombok:lombok:1.18.4',
 
 //                    "android-test"       : ['com.android.support.test.espresso:espresso-core:2.2.2',
 //                                            'com.android.support.test:runner:0.5',

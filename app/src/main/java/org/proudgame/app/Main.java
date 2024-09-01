@@ -20,8 +20,8 @@ public class Main {
         TestLib.m();
         TestLib2.m2();
 
-        var a = new TestLib2();
-        System.out.println("a = " + new Gson().toJson(a));
+//        var a = new TestLib2();
+//        System.out.println("a = " + new Gson().toJson(a));
 
     }
 }
